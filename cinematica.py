@@ -4,8 +4,8 @@ def mostrar_menu():
     print('2 - Calcular energia cinética.')
     print('3 - Sair do programa')
    
-def calcular_ep(m,g,h):
-    ep = m * g * h
+def calcular_ep(m,h):
+    ep = m * 9.8 * h
     return ep
 
 def calcular_ac(m,v):
